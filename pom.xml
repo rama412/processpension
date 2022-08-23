@@ -127,6 +127,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>processpension-microservice</finalName>
 	</build>
 
 </project>

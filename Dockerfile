@@ -1,4 +1,4 @@
 FROM openjdk:8
-EXPOSE 8400
-ADD target/Authorization-Microservice.jar Authorization-Microservice.jar
-ENTRYPOINT ["java","-jar","/Authorization-Microservice.jar"]
+EXPOSE 8100
+ADD target/processpension-microservice.jar Authorization-Microservice.jar
+ENTRYPOINT ["java","-jar","/processpension-microservice.jar"]

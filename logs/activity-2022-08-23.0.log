@@ -18,3 +18,6 @@
 2022-08-23_20-12-29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
 2022-08-23_20-12-29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/process'
 2022-08-23_20-12-29 [restartedMain] INFO  c.p.p.p.ProcessPensionMicroserviceApplication - Started ProcessPensionMicroserviceApplication in 7.672 seconds (JVM running for 8.912)
+2022-08-23_20-12-29 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-23_20-12-29 [http-nio-8100-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-23_20-12-29 [http-nio-8100-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 67 ms
