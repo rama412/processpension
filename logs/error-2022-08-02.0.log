@@ -1,0 +1,14 @@
+2022-08-02_16-42-10 [http-nio-8100-exec-6] ERROR c.p.p.p.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2022-08-02_16-42-10 [http-nio-8100-exec-6] ERROR c.p.p.p.e.GlobalExceptionHandler - Connection refused: no further information executing POST http://localhost:8300/disbursement/api/v1/disbursePension
+2022-08-02_16-42-10 [http-nio-8100-exec-8] ERROR c.p.p.p.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2022-08-02_16-42-10 [http-nio-8100-exec-8] ERROR c.p.p.p.e.GlobalExceptionHandler - Connection refused: no further information executing POST http://localhost:8300/disbursement/api/v1/disbursePension
+2022-08-02_16-42-10 [http-nio-8100-exec-10] ERROR c.p.p.p.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2022-08-02_16-42-10 [http-nio-8100-exec-10] ERROR c.p.p.p.e.GlobalExceptionHandler - Connection refused: no further information executing POST http://localhost:8300/disbursement/api/v1/disbursePension
+2022-08-02_16-42-10 [http-nio-8100-exec-9] ERROR c.p.p.p.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2022-08-02_16-42-10 [http-nio-8100-exec-9] ERROR c.p.p.p.e.GlobalExceptionHandler - Connection refused: no further information executing POST http://localhost:8300/disbursement/api/v1/disbursePension
+2022-08-02_16-42-10 [http-nio-8100-exec-1] ERROR c.p.p.p.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2022-08-02_16-42-10 [http-nio-8100-exec-1] ERROR c.p.p.p.e.GlobalExceptionHandler - Connection refused: no further information executing POST http://localhost:8300/disbursement/api/v1/disbursePension
+2022-08-02_16-42-10 [http-nio-8100-exec-2] ERROR c.p.p.p.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2022-08-02_16-42-10 [http-nio-8100-exec-2] ERROR c.p.p.p.e.GlobalExceptionHandler - Connection refused: no further information executing POST http://localhost:8300/disbursement/api/v1/disbursePension
+2022-08-02_16-42-10 [http-nio-8100-exec-4] ERROR c.p.p.p.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2022-08-02_16-42-10 [http-nio-8100-exec-4] ERROR c.p.p.p.e.GlobalExceptionHandler - Connection refused: no further information executing POST http://localhost:8300/disbursement/api/v1/disbursePension
