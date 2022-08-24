@@ -91,11 +91,7 @@
 		</dependency>
 		
 		
-		
-		
-		
-		
-		
+
 		
 	</dependencies>
 	
@@ -127,7 +123,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>processpension-microservice</finalName>
+		<finalName>ProcessPensionMicroservice</finalName>
 	</build>
 
 </project>

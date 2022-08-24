@@ -82,3 +82,43 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2022-08-24_07-56-10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
 2022-08-24_07-56-10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/process'
 2022-08-24_07-56-10 [restartedMain] INFO  c.p.p.p.ProcessPensionMicroserviceApplication - Started ProcessPensionMicroserviceApplication in 5.357 seconds (JVM running for 6.371)
+2022-08-24_07-56-10 [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-24_08-36-42 [restartedMain] INFO  c.p.p.p.ProcessPensionMicroserviceApplication - Starting ProcessPensionMicroserviceApplication using Java 17.0.3 on LTIN310968 with PID 18096 (C:\Users\912809\OneDrive - Cognizant\Documents\FSE0 Documents\Pensionmanagement\pension-management-system-1\pms-ProcessPension-Microservice\target\classes started by 912809 in C:\Users\912809\OneDrive - Cognizant\Documents\FSE0 Documents\Pensionmanagement\pension-management-system-1\pms-ProcessPension-Microservice)
+2022-08-24_08-36-42 [restartedMain] INFO  c.p.p.p.ProcessPensionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-08-24_08-36-42 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3504cb67-5627-3dde-961c-7d041bf2fedc
+2022-08-24_08-36-42 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.pms.pension.process.feignclient.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-24_08-36-42 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.pms.pension.process.feignclient.PensionDisbursementFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-24_08-36-42 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.pms.pension.process.feignclient.PensionerDetailFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-24_08-36-42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2022-08-24_08-36-42 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2022-08-24_08-36-42 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-24_08-36-42 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-08-24_08-36-42 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring embedded WebApplicationContext
+2022-08-24_08-36-42 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 781 ms
+2022-08-24_08-36-42 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-08-24_08-36-42 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-24_08-36-42 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-08-24_08-36-42 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2022-08-24_08-36-42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/process'
+2022-08-24_08-36-42 [restartedMain] INFO  c.p.p.p.ProcessPensionMicroserviceApplication - Started ProcessPensionMicroserviceApplication in 1.657 seconds (JVM running for 2435.309)
+2022-08-24_08-37-25 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2022-08-24_08-37-25 [restartedMain] INFO  c.p.p.p.ProcessPensionMicroserviceApplication - Starting ProcessPensionMicroserviceApplication using Java 17.0.3 on LTIN310968 with PID 24088 (C:\Users\912809\OneDrive - Cognizant\Documents\FSE0 Documents\Pensionmanagement\pension-management-system-1\pms-ProcessPension-Microservice\target\classes started by 912809 in C:\Users\912809\OneDrive - Cognizant\Documents\FSE0 Documents\Pensionmanagement\pension-management-system-1\pms-ProcessPension-Microservice)
+2022-08-24_08-37-25 [restartedMain] INFO  c.p.p.p.ProcessPensionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-08-24_08-37-25 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-24_08-37-25 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-24_08-37-25 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3504cb67-5627-3dde-961c-7d041bf2fedc
+2022-08-24_08-37-25 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.pms.pension.process.feignclient.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-24_08-37-25 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.pms.pension.process.feignclient.PensionDisbursementFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-24_08-37-25 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.pms.pension.process.feignclient.PensionerDetailFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-24_08-37-25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2022-08-24_08-37-25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2022-08-24_08-37-25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-24_08-37-25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-08-24_08-37-25 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring embedded WebApplicationContext
+2022-08-24_08-37-25 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2715 ms
+2022-08-24_08-37-25 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-08-24_08-37-25 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-24_08-37-25 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-08-24_08-37-25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2022-08-24_08-37-25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/process'
+2022-08-24_08-37-25 [restartedMain] INFO  c.p.p.p.ProcessPensionMicroserviceApplication - Started ProcessPensionMicroserviceApplication in 5.424 seconds (JVM running for 6.499)
